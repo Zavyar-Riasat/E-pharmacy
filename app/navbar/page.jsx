@@ -31,12 +31,12 @@ export function Component() {
           <NavbarToggle />
           <NavbarCollapse>
             <div className="flex flex-col sm:flex-row sm:items-center gap-2">
-              <NavbarLink href="./mystore">
+              <NavbarLink href="/Admin/mystore">
                 <span className="text-white hover:border-2 border-[#343148FF] font-bold bg-[#343148FF] px-6 py-3 rounded-2xl hover:text-gray-300 transition-colors duration-200">
                   My Store
                 </span>
               </NavbarLink>
-              <NavbarLink href="./order">
+              <NavbarLink href="/Admin/order">
                 <span className="text-white hover:border-2 border-[#343148FF] font-bold bg-[#343148FF] px-6 py-3 rounded-2xl hover:text-gray-300 transition-colors duration-200">
                 Orders
                 </span>

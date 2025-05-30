@@ -1,4 +1,4 @@
-import Mystore from "./mystore/page";
+import Mystore from "./Admin/mystore/page";
 
 
 
